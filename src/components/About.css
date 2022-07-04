@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+#About{
+    display: flex;
+    position: relative;
+    /* top: 5rem; */
+    padding-top: 5rem;
+    justify-content: center;
+    border-bottom: 1.8px solid #efefef;
+}
+#About1{
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+.About1a{
+    display: flex;
+    /* margin-bottom: 1rem; */
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+.About1a #dot{
+    font-size: 3rem;
+    color: #3333ff;
+    margin-bottom: 11px;
+}
+.About1b #info{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    color: #515151;
+}
+.About1c{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+.About1c1{
+    width: 18%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.24rem;
+}
+.About1c2{
+    width: 18rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: #515151;
+}
+.About1c1 .phone{
+    font-weight: 600;
+}
+.About1d a{
+    text-decoration: none;
+    padding: 1.1rem 3rem;
+    font-size: 0.8rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    /* margin: 1rem 1rem; */
+    display: inline-block;
+    font-weight: 600;
+}
+.About1d #contactMe{
+    background-color: #3333ff;
+    color: white;
+}
+.About1d #contactMe:hover{
+box-shadow: 10px 10px 20px rgb(51 51 255 / 20%);
+transition: 0.3s ease;
+}
+.About1d #downloadCv{
+    background-color: #efefef;
+    color: black;
+}
+.About1d #downloadCv:hover{
+    box-shadow: 10px 10px 20px rgb(37 37 37 / 20%);
+    transition: 0.3s ease;
+}
+#About2{
+    height: 28rem;
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#About2 img{
+    height: 22rem;
+}
+#profile{
+    z-index: 2;
+}
+#grid{
+    position: absolute;
+    right: 7rem;
+    height: 5rem !important;
+    bottom: 1rem;
+}
+.mouse {
+	width: 25px;
+	height: 50px;
+	border: 3px solid #333;
+	border-radius: 60px;
+	position: absolute;
+    right: 6rem;
+}
+.mouse::before {
+		content: '';
+		width: 12px;
+		height: 12px;
+		position: absolute;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #333;
+		border-radius: 50%;
+		opacity: 1;
+		animation: wheel 2s infinite;
+		-webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+#line1{
+    width: 100%;
+    height: 1px;
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+#header{
+    height: 5rem;
+    /* padding: 1.5rem 0rem; */
+    width: 100%;
+    border-bottom: 1px solid #E3E3E3;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    background-color: white;
+    /* box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1); */
+}
+.add-shadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 20px 0px;
+    transition: 0.3s ease-in-out;
+}
+.header1{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header1 #nameHeading{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.header1 #dot{
+    font-size: 2rem;
+    color: #3333ff;
+}
+.header2{
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 7rem;
+}
+.header2 ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.header2 ul li a{
+    text-decoration: none;
+    color: #252525;
+    font-weight: 600;
+}
+.header2 ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.85rem;
+}

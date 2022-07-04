@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+#Skills{
+    position: relative;
+    padding: 5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 26rem; */
+    border-bottom: 2px solid #efefef;
+    box-sizing: border-box;
+}
+.Skills1{
+    width: 26.8%;
+}
+.Skills1a{
+    display: flex;
+    align-items: center;
+}
+.Skills1a #dot{
+    font-size: 3rem;
+    color: #3333ff;
+    margin-bottom: 12px;
+}
+.Skills1b{
+    width: 23rem;
+}
+.Skills1b #skillPara{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    color: #515151;
+}
+.Skills2{
+    width: 26.8%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Skills2a{
+    height: 7.5rem;
+    border-bottom: 2px solid #efefef;
+    width: 23rem;
+}
+.Skills2b{
+    width: 23rem;
+}
+.skillType{
+    margin-bottom: 10px;
+}
+.skills{
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    color: #515151;
+}
+#line2{
+    width: 100%;
+    height: 1px;
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+}

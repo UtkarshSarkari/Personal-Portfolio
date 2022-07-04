@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+#Projects{
+    position: relative;
+    /* top: 5rem; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #efefef;
+}
+.Projects1{
+    width: 26%;
+    /* border-left: 1px solid; */
+    margin-top: 3rem;
+}
+.Projects1a{
+    display: flex;
+    align-items: center;
+}
+.Projects1a #dot{
+    font-size: 3rem;
+    color: #3333ff;
+    margin-bottom: 12px;
+}
+.Projects1b{
+    width: 23rem;
+}
+.Projects1b #projectPara{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    color: #515151;
+}
+.Projects2{
+    width: 54%;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.Projects2 .box{
+    height: 12rem;
+    width: 12rem;
+    background-color: red;
+    margin: 4rem 1rem 1rem 1rem;
+}
+.projects{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.details{
+    margin: 4rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+}
+.details .projectdesc{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+.links a{
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    font-size: 0.85rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    /* margin: 1rem 1rem; */
+    display: inline-block;
+    font-weight: 600;
+}
+.links .viewLive{
+    background-color: #3333ff;
+    color: white;
+}
+.links .viewLive:hover{
+box-shadow: 10px 10px 20px rgb(51 51 255 / 20%);
+transition: 0.3s ease;
+}
+.links .viewCode{
+    background-color: #efefef;
+    color: black;
+}
+.links .viewCode:hover{
+    box-shadow: 10px 10px 20px rgb(37 37 37 / 20%);
+    transition: 0.3s ease;
+}
+#line3{
+    width: 100%;
+    height: 1px;
+    /* border-bottom: 1px solid; */
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+}
+#box1{
+    background-image: url('./convofobia.png');
+    background-size: cover;
+}
+#box2{
+    background-image: url('./linkedinclone.png');
+    background-size: cover;
+}
+#box3{
+    background-image: url('./trash.png');
+    background-size: cover;
+}
